@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#top{
+	font-family: "Courier New", monospace;
+	font-size: 20px;
+	color: black;
+}
+
+#full{
+	font-family: "Courier New", monospace;
+	font-size: 20px;
+	color: white;
+}
+
+#name{
+	font-family: "Courier New", monospace;
+	font-size: 20px;
+	color: white;
+}
+
+#p1{
+	font-family: "Courier New", monospace;
+	font-size: 20px;
+	color: white;
+}
+
+.background{
+	min-height: 100vh;
+	background-color: gray;
+	background-image: url("https://cutewallpaper.org/22/your-name-aesthetic-desktop-wallpapers/2954230375.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center top;
+	background-attachment: scroll;
+}
