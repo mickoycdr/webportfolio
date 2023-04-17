@@ -4,36 +4,87 @@
 	box-sizing: border-box;
 }
 
-#top{
-	font-family: "Courier New", monospace;
-	font-size: 20px;
-	color: black;
+.navlink{
+	color: white !important;
 }
 
-#full{
+/*.bg-title{
 	font-family: "Courier New", monospace;
-	font-size: 20px;
 	color: white;
+	text-align: left;
+	font-size: 4rem;
+	margin: 20rem 0 0 0 ;
+	line-height: 5rem;
+}*/
+
+#nav{
+	background-color: #0E1E35 !important;
 }
 
-#name{
-	font-family: "Courier New", monospace;
-	font-size: 20px;
+#landing{
+	font-family: "sans-serif;", monospace;
 	color: white;
-}
-
-#p1{
-	font-family: "Courier New", monospace;
-	font-size: 20px;
-	color: white;
+	text-align: left;
+	font-size: 2rem;
+	margin: 0;
+	line-height: 3rem;
 }
 
 .background{
 	min-height: 100vh;
 	background-color: gray;
-	background-image: url("https://cutewallpaper.org/22/your-name-aesthetic-desktop-wallpapers/2954230375.jpg");
+	background-image: url("https://r4.wallpaperflare.com/wallpaper/249/199/684/starry-sky-night-mountains-wallpaper-7e4e23ded728fc7672a6cb7e60e34ee7.jpg");
 	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: center top;
+	background-size: cover;
+	background-position: center center;
 	background-attachment: scroll;
+}
+
+#aboutme{
+	background-color: #0E1230;
+}
+
+/*About Me Section*/
+.bg-image {
+    background-image: url("https://images.wallpapersden.com/image/download/australia-milky-way_bGdqbmyUmZqaraWkpJRmbmdlrWZlbWU.jpg");
+    min-height: 100vh;
+    background-repeat : no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: scroll;
+    display: absolute;
+}
+
+.front-bg {
+    background: rgba(0, 0, 0, 0.5);
+    min-height: 100vh;
+}
+
+.container {
+    margin: 0 45rem;
+    position: relative;
+    border-radius: 15px;
+}
+
+.title {
+    font-family: "Zilla Slab",serif;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+}
+
+#hero{
+	padding-top: 10rem;
+}
+
+@media (min-width: 768px) {
+      #hero {
+          padding-top: 20rem;
+    }
+    }
+
+#tools{
+	font-family: "Zilla Slab",serif;
+    font-size: 3rem;
 }
